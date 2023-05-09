@@ -44,7 +44,7 @@ body{
     margin-right: 46px;
 }
 .block_1{
-    position: static;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
