@@ -44,6 +44,7 @@ body{
     margin-right: 46px;
 }
 .block_1{
+    position: static;
     display: flex;
     align-items: center;
     justify-content: center;
