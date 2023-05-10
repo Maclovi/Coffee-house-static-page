@@ -48,7 +48,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
     background-image: url("https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
     background-size: cover;
     background-position: center;
@@ -103,10 +103,7 @@ body{
     line-height: 30px;
     color: #000000;
 }
-.right:hover{
-    font-weight: bold;
 
-}
 .block_3{
     background: #EFEFEF;
 }
