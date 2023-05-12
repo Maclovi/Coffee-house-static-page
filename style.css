@@ -51,9 +51,10 @@ body{
     background-image: url("https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    resize: none;
 }
 .text_1{
-    margin-top: 40vh;
     font-weight: 700;
     font-size: 60px;
     line-height: 89px;
@@ -63,7 +64,6 @@ body{
 }
 .line{
     margin-top:20px;
-    margin-bottom: 38vh;
     width: 80px;
     height: 10px;
     background: #817070;
