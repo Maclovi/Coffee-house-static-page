@@ -52,7 +52,6 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    height: -webkit-fill-available;
     resize: none;
 }
 .text_1{
