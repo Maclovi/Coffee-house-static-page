@@ -45,7 +45,6 @@ body{
 }
 .block_1{
     display: flex;
-    background-attachment: scroll!important;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -53,6 +52,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    height: -webkit-fill-available;
     resize: none;
 }
 .text_1{
